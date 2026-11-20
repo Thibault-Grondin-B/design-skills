@@ -1,12 +1,14 @@
 # design-skills
 
-Personal Claude plugin marketplace. It does not copy any skills: each entry points to the original repository, so updates from the authors sync automatically.
+Personal Claude plugin marketplace. Each entry points to a repository that holds the skills; nothing is copied here.
 
 ## Plugins
 
 | Plugin | Source | Contents |
 |---|---|---|
-| `emil-design-eng` | [emilkowalski/skills](https://github.com/emilkowalski/skills) (MIT) | Animation, motion and UI craft skills by Emil Kowalski |
+| `emil-design-eng` | [Thibault-Grondin-B/emil-skills](https://github.com/Thibault-Grondin-B/emil-skills), a fork of [emilkowalski/skills](https://github.com/emilkowalski/skills) (MIT) | Animation, motion and UI craft skills by Emil Kowalski |
+
+The fork exists only to add `.claude-plugin/plugin.json`, which claude.ai requires and the original repo does not have. To pull Emil's latest changes, click **Sync fork** on the fork's GitHub page.
 
 ## Add to Claude
 
