@@ -1,0 +1,21 @@
+{
+  "name": "design-skills",
+  "owner": {
+    "name": "Thibault Grondin",
+    "url": "https://github.com/Thibault-Grondin-B"
+  },
+  "description": "Personal marketplace for third-party design skills.",
+  "plugins": [
+    {
+      "name": "emil-design-eng",
+      "displayName": "Emil Kowalski: Design Engineering Skills",
+      "description": "Animation, motion and UI craft skills by Emil Kowalski (Vercel, Linear). Synced from github.com/emilkowalski/skills.",
+      "homepage": "https://aiforui.dev/skills",
+      "license": "MIT",
+      "source": {
+        "source": "github",
+        "repo": "emilkowalski/skills"
+      }
+    }
+  ]
+}
